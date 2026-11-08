@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ludus – Datenschutz</title><style>
+@font-face{font-family:Newsreader;src:url(fonts/Newsreader-Medium.ttf);font-weight:500}
+@font-face{font-family:Newsreader;src:url(fonts/Newsreader-Italic.ttf);font-style:italic}
+@font-face{font-family:Plex;src:url(fonts/IBMPlexSans-Regular.ttf);font-weight:400}
+@font-face{font-family:Plex;src:url(fonts/IBMPlexSans-SemiBold.ttf);font-weight:600}
+@font-face{font-family:PlexMono;src:url(fonts/IBMPlexMono-Regular.ttf)}
+:root{--bg:#f4efe6;--surface:#fbf8f2;--line:#e2d9c9;--ink:#2a241c;--ink2:#5c5245;--muted:#8a7e6e;--accent:#a0552a}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1a15;--surface:#26221b;--line:#352f26;--ink:#efe7d9;--ink2:#c8bead;--muted:#8d8273;--accent:#d4854f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Plex,system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+h1{font:500 46px/1.1 Newsreader,serif;margin:0 0 8px}h2{font:500 24px/1.2 Newsreader,serif;margin:36px 0 8px}
+.eyebrow{font:10.5px PlexMono,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lead{font-size:18px;color:var(--ink2)}.note{font:italic 17px/1.4 Newsreader,serif;color:var(--ink2)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
+a{color:var(--accent)}nav{display:flex;gap:18px;margin-bottom:40px;font-size:14px}nav a{text-decoration:none}
+footer{margin-top:56px;font:12px PlexMono,monospace;color:var(--muted)}ul{padding-left:20px}li{margin:4px 0}
+</style></head>
+<body><main>
+<nav><a href="index.html">Ludus</a><a href="support.html">Support</a><a href="datenschutz.html">Datenschutz</a></nav>
+
+<h1>Datenschutz</h1>
+<p class="lead">Stand: 8. November 2026. Kurz: Der Anbieter von Ludus erhebt und speichert keine Daten über Sie.</p>
+
+<h2>Verantwortlicher</h2>
+<p>Felix Kappen, E-Mail: <a href="mailto:fkappen@me.com">fkappen@me.com</a>.</p>
+
+<h2>Woher die Daten kommen</h2>
+<ul>
+<li>Die App zeigt den Stand, den Ludus auf Ihrem PC erstellt: Ihr Riot-Profil, letzte Spiele, Statistik, Builds, Freundesliste
+und den Stand in Anno 117. Der PC legt ihn in Ihrer iCloud ab (Ordner der App „Ludus“) oder – wenn Sie das wählen – in Ihrem
+OneDrive bzw. Dropbox. Im selben WLAN holt die App ihn direkt vom PC.</li>
+<li>Es gibt keinen Server des Anbieters. Der Stand liegt auf Ihrem Gerät, auf Ihrem PC und in Ihrem eigenen Cloud-Speicher.
+Er ist dort durch den jeweiligen Dienst geschützt, aber nicht zusätzlich verschlüsselt.</li>
+<li>Melden Sie sich in der App bei OneDrive oder Dropbox an, erhält die App nur Lesezugriff auf den Ordner „Ludus“. Die
+Anmeldung bleibt im Schlüsselbund des Geräts.</li>
+</ul>
+
+<h2>Bilder und Spieldaten</h2>
+<p>Champion-, Gegenstands- und Kartenbilder lädt die App von den öffentlichen Datendiensten von Riot Games (Data Dragon) und
+CommunityDragon. Dabei wird technisch bedingt Ihre IP-Adresse an diese Dienste übertragen; weitere Daten nicht.</p>
+
+<h2>Kamera, lokales Netzwerk, Face ID</h2>
+<p>Die Kamera dient nur zum Scannen des QR-Codes vom PC. Das lokale Netzwerk nutzt die App, um Ludus auf Ihrem PC im WLAN zu
+finden. Face ID entsperrt die App, wenn Sie die Sperre einschalten; Apple gibt dabei keine biometrischen Daten an die App.</p>
+
+<h2>Keine Analyse, keine Werbung</h2>
+<p>Ludus enthält keine Analyse- oder Werbedienste und kein Tracking.</p>
+
+<h2>Ihre Rechte</h2>
+<p>Mit dem Löschen der App sind alle Daten auf dem Gerät entfernt; den Stand in iCloud löschen Sie in den iCloud-Einstellungen.
+Da der Anbieter keine Daten über Sie speichert, kann er darüber keine Auskunft geben. Bei Fragen schreiben Sie an die oben
+genannte E-Mail-Adresse. Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+
+<p class="muted" style="font-size:12px;color:var(--muted)">Ludus ist nicht von Riot Games unterstützt und gibt nicht die Ansichten oder Meinungen von Riot Games oder von Personen wieder, die offiziell an der Produktion oder Verwaltung von Riot-Games-Inhalten beteiligt sind. Riot Games und alle zugehörigen Inhalte sind Marken oder eingetragene Marken von Riot Games, Inc.</p>
+
+<footer>Ludus · Felix Kappen · Schriften: Newsreader, IBM Plex (SIL Open Font License)</footer>
+</main></body></html>
